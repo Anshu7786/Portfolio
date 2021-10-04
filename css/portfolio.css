@@ -1,0 +1,277 @@
+*{padding:0; margin:0; box-sizing: border-box;}
+*{
+    background-color:bisque;
+    
+}
+* {
+    box-sizing: border-box;
+  }
+  
+header{
+    width:100% ;
+    height: 100vh;
+    position: relative;
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    font-family: 'signika',sans-serif;
+}
+.logo{
+    letter-spacing: 5px;
+    font-size: 50px;
+    color:darkslategrey;
+    display: inline-block;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 10px 20px ;
+    font-size: 20px; 
+    color: black;
+
+}
+.menu a{
+    background:rgb(115, 145, 201)	;
+    border-radius: 6px;
+    letter-spacing: 1px ;
+    color: white;
+}
+
+.h-text{
+    max-width: 500px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+}
+.h-text h1{
+    font-size: 3em;
+    color:#4d0e0e;
+    font-family: 'crimson text',sans-serif;
+}
+.h-text p{
+    font-size:20px ;
+    margin: 30px;
+}
+.h-text a{
+    text-decoration: none;
+    background:rgb(204, 165, 9);
+    color:black;
+    font-size: 20px;
+    font-family: 'Bitter',serif;
+    border-radius: 8px;
+}
+#more{
+    background: transparent;
+    color:black;
+    box-shadow: 2px 0px 0px gray;
+}
+.icon{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+.menu a:hover{
+    
+    transition: 0.4s;
+    border: 1px solid black;
+    color: black;
+    
+}#new:hover{
+    transition: 0.4s;
+    border: 1px solid black;
+    color: black;
+    
+
+    
+
+    
+
+}
+#sara{
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    right: 10%;
+    left: 185%;
+    top:0;
+    z-index:-1;
+    
+}
+
+    
+
+#about{
+    padding: 50px 100px;
+    width: 100%;
+    height: 100vh;
+}
+.about-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-left-col{
+    flex-basis: 40%;
+    text-align: center;
+    background: rgba(red, green, blue, alpha);
+}
+.about-left-col img{
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+}
+.about-right-col{
+    flex-basis: 50%;
+}
+.about-right-col h1{
+font-size: 3em;
+color: #222f3e;
+line-height: 1.4em;
+font-family:'poppins',sans-serif;
+}
+.about-right-col p{
+    font-size: 20px;
+    color: gray;
+    margin: 30px 0px 40px 0px;
+}
+.skills h1{
+    font-size: 3em;
+    text-align: center;
+}
+#about {
+    background-image: url(../img/Live-Wave-Background.svg);
+    
+}
+.wee img{
+    
+    width: 20%;
+    height: 40%;
+    padding: 60px;
+    position:absolute;
+    left: 10%;
+    
+    
+}
+.wee2 img{
+    width: 15%;
+    height: 40%;
+    padding: 60px; 
+    position:absolute;
+    left: 43%;
+    
+}
+.skills h1{
+    margin-top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.wee3 img{
+    width: 20%;
+    height: 40%;
+    padding: 60px; 
+    position:absolute;
+    right: 10%;
+}
+.wee4 img{
+    width: 20%;
+    height: 40%;
+    padding: 60px;
+    position: relative;
+    margin-top: 20%;
+    left: 10%;
+}
+   
+.wee6 img{
+    width: 20%;
+    height: 40%;
+    position:absolute;
+    margin-left: 70%;
+    top: 260%;
+    padding: 60px;
+}
+.wee5 img{
+    width: 20%;
+    height: 40%;
+    padding: 60px; 
+    position:absolute;
+    left: 40%;
+    top: 260%;
+    right: 40%;
+}
+.anshu h1{
+    text-align: center;
+    color: black;
+    font-size: 3em;
+
+}
+
+.yadav h1{
+    text-align: center;
+    color: black;
+    font-size: 3em;
+    
+}
+
+.anshu p{
+    text-align: center;
+    font-size: 4em;
+    color: blue;
+    flex-basis: 40%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    z-index: -2;
+    
+}
+.yadav img{
+    
+    width: 7%;
+    height: 14%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 20%;
+    
+}
+.yadav img:hover{
+    transition: 0.4s;
+    border: 3px solid black;
+    color: black;
+    
+    
+    
+}
+.last p{
+    text-align: center;
+    background: black;
+    font-size: 2em;
+    color: white;
+    
+    
+
+}
+
+.somya{
+    font-size: 0.5em;
+}
+#project{
+    padding: 50px 100px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(10, 63, 10);
+    
+}
+
+  
